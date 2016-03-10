@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:checked="true"
+            android:id="@+id/nav_main"
+            android:icon="@drawable/icon_home"
+            android:title="@string/nav_main" />
+        <item
+            android:id="@+id/nav_message"
+            android:icon="@drawable/icon_school_beside"
+            android:title="@string/nav_message" />
+        <item
+            android:id="@+id/nav_department"
+            android:icon="@drawable/icon_departemt"
+            android:title="@string/nav_department" />
+
+        <item
+            android:id="@+id/nav_essay"
+            android:icon="@drawable/icon_weixin"
+            android:title="@string/nav_essay" />
+        <!--<item-->
+            <!--android:id="@+id/nav_photo"-->
+            <!--android:icon="@drawable/icon_henu_image"-->
+            <!--android:title="@string/nav_photo" />-->
+    </group>
+
+    <item android:title="更多选项">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/icon_share"
+                android:title="@string/nav_share" />
+            <item
+                android:id="@+id/nav_theme"
+                android:icon="@drawable/icon_theme"
+                android:title="@string/nav_theme" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/icon_about"
+                android:title="@string/nav_about" />
+        </menu>
+    </item>
+
+</menu>

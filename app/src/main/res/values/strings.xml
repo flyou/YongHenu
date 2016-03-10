@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">河大在线</string>
+    <string name="theme">主题</string>
+    <string name="cancel">取消</string>
+    <string name="done">完成</string>
+
+    <string name="navigation_drawer_open">打开菜单</string>
+    <string name="navigation_drawer_close">关闭菜单</string>
+
+    <string name="action_settings">设置</string>
+    <string name="nav_main">首页</string>
+    <string name="nav_department">院系新闻</string>
+    <string name="nav_message">校园公告</string>
+    <string name="nav_essay">河大美文</string>
+    <string name="nav_photo">图说河大</string>
+    <string name="nav_share">分享</string>
+    <string name="nav_theme">主题设置</string>
+    <string name="nav_about">关于</string>
+    <string name="department_jiaoyu">教育科学学院</string>
+    <string name="department_minsheng">民生学院</string>
+    <string name="department_fa">法学院</string>
+    <string name="department_wen">文学院</string>
+    <string name="department_yao">药学院</string>
+    <string name="department_yi">医学院</string>
+    <string name="department_shang">商学院</string>
+    <string name="department_huanjing">环境规划学院</string>
+    <string name="department_jisuanji">计算机学院</string>
+    <string name="department_sheng">生命科学学院</string>
+    <string name="department_lishi">历史文化学院</string>
+    <string name="department_xinwen">新闻与传播化学院</string>
+    <string name="department_zhe">哲学院</string>
+    <string name="message_school">校园公告</string>
+    <string name="message_edu">学术公告</string>
+
+    <string name="image_minhlun">手绘河大</string>
+    <string name="image_spring">柳暗花明</string>
+    <string name="image_summer">一碧万倾</string>
+    <string name="image_autumn">金风送爽</string>
+    <string name="image_winter">冰花玉树</string>
+    <string name="about_account">\n微博：<a href="http://weibo.com/fangjaylong">凤飞雪未扬</a>\n\n博客：<a href="http://blog.flyou.ren/">flyou</a>\n\nQQ：553274238</string>
+    <string name="all">全部</string>
+</resources>

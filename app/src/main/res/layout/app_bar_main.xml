@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.flyou.simplehenu.utils.theme.ColorRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBackground"
+        android:fitsSystemWindows="true"
+        tools:context=".ui.activity.MainActivity">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+
+            <com.flyou.simplehenu.utils.theme.ColorToolBar
+                android:id="@+id/toolbar"
+
+                android:background="?attr/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:popupTheme="@style/AppTheme.PopupOverlay">
+
+
+            </com.flyou.simplehenu.utils.theme.ColorToolBar>
+
+        </android.support.design.widget.AppBarLayout>
+
+        <FrameLayout
+            android:id="@+id/frame_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/appbar"
+            android:scrollbars="none"
+            android:elevation="5dp"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+
+
+    </android.support.design.widget.CoordinatorLayout>
+
+    <com.flyou.simplehenu.utils.theme.ColorView
+
+        android:id="@+id/status_bar"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="?attr/colorPrimary" />
+</com.flyou.simplehenu.utils.theme.ColorRelativeLayout>
