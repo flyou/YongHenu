@@ -181,7 +181,6 @@ public class MainActivity extends BaseActivity
                                 .sizeDp(20))
                         .positiveText("确定")
                         .content(R.string.about_account)
-                        .negativeText("取消")
                         .show();
                 break;
             case R.id.nav_theme:
