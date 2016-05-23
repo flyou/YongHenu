@@ -1,13 +1,15 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="android:windowIsTranslucent">true</item>
-
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
         <!-- Customize your theme here. -->
         <!--<item name="android:windowIsTranslucent">true</item>-->
         <!--<item name="android:windowBackground">@android:color/transparent</item>-->
     </style>
+
     <style name="custom_dialog" parent="@android:style/Theme.Dialog">
         <item name="android:windowFrame">@null</item>
         <item name="android:windowIsFloating">true</item>
@@ -189,17 +191,11 @@
 
 
 
-    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" >
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
-        <item name="colorControlNormal">@android:color/white</item>
-        <!-- 菜单颜色 -->
-        <item name="android:textColorPrimary">#fff</item>
-    </style>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="Transparent" parent="AppTheme.NoActionBar">
 
-    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" >
-        <item name="colorControlNormal">@android:color/white</item>
-        <!-- 菜单颜色 -->
-        <item name="android:textColorPrimary">#fff</item>
     </style>
 
 </resources>
