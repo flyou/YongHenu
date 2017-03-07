@@ -25,7 +25,7 @@ import com.flyou.simplehenu.R;
 
 public class LoadingView extends FrameLayout {
 
-    private static final int ANIMATION_DURATION = 500;
+    private static final int ANIMATION_DURATION = 5000;
 
     private static float mDistance = 200;
 
@@ -165,7 +165,7 @@ public class LoadingView extends FrameLayout {
     public void upThrow() {
 
         ObjectAnimator objectAnimator = ObjectAnimator.ofFloat(mShapeLoadingView, "translationY", mDistance, 0);
-        ObjectAnimator scaleIndication = ObjectAnimator.ofFloat(mIndicationIm, "scaleX", 0.2f, 1);
+        ObjectAnimator scaleIndication = ObjectAnimator.ofFloat(mIndicationIm, "scaleX", 1, 0.2f);
 
 
         ObjectAnimator objectAnimator1 = null;
@@ -188,8 +188,6 @@ public class LoadingView extends FrameLayout {
         }
 
 
-        objectAnimator.setDuration(ANIMATION_DURATION);
-        objectAnimator1.setDuration(ANIMATION_DURATION);
         objectAnimator.setInterpolator(new DecelerateInterpolator(factor));
         objectAnimator1.setInterpolator(new DecelerateInterpolator(factor));
         AnimatorSet animatorSet = new AnimatorSet();
@@ -233,10 +231,10 @@ public class LoadingView extends FrameLayout {
     public void freeFall() {
 
         ObjectAnimator objectAnimator = ObjectAnimator.ofFloat(mShapeLoadingView, "translationY", 0, mDistance);
-        ObjectAnimator scaleIndication = ObjectAnimator.ofFloat(mIndicationIm, "scaleX", 1, 0.2f);
+        ObjectAnimator scaleIndication = ObjectAnimator.ofFloat(mIndicationIm, "scaleX", 0.2f, 1f);
 
 
-        objectAnimator.setDuration(ANIMATION_DURATION);
+
         objectAnimator.setInterpolator(new AccelerateInterpolator(factor));
         AnimatorSet animatorSet = new AnimatorSet();
         animatorSet.setDuration(ANIMATION_DURATION);

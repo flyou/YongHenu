@@ -30,9 +30,6 @@ public class ShapeLoadingView extends View {
     private int mCircleColor  ;
     private int mRectColor ;
 
-    /**
-     * 用赛贝尔曲线画圆
-     */
     private float mMagicNumber = 0.55228475f;
 
     public ShapeLoadingView(Context context) {
